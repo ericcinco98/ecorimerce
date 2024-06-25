@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+body {
+  background: url(ilo.jpg) no-repeat center center fixed;
+  background-color: rgb(66, 233, 255);
+  background-size: cover; /* Stretch the background image to cover the entire viewport */
+  height: 100vh; /* Changed from 15000vh to 100vh */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#dex {
+  position: relative;
+  max-width: 600px;
+  padding: 40px;
+  background: skyblue;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+  transform: translateY(50px);
+  margin: 20px auto; /* Added auto margin to center the div */
+  border-radius: 10px; /* Added border radius to give a rounded corner effect */
+}
+
+.cher {
+  position: relative;
+  max-width: 600px;
+  padding: 50px;
+  backdrop-filter: blur(2px) saturate(20%);
+  -webkit-backdrop-filter: blur(2px) saturate(20%);
+  background-color: rgba(224, 190, 190, 0.34);
+  border-radius: 12px;
+  border: 1px solid rgba(209, 213, 219, 0.3);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+  transform: translateY(30px);
+  margin: 20px auto; /* Added auto margin to center the div */
+  border-radius: 10px; /* Added border radius to give a rounded corner effect */
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.8)); /* Gradient overlay */
+}
+
+button {
+  width: 120px;
+  height: 40px;
+  backdrop-filter: blur(12px) saturate(74%);
+    -webkit-backdrop-filter: blur(12px) saturate(74%);
+    background-color: rgba(124, 101, 101, 0);
+    border-radius: 12px;
+    border: 1px solid rgba(209, 213, 219, 0.3);
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #333;
+}
+
+h1 {
+  text-align: center;
+  font-family: Courier;
+  font-size: 40px;
+  color:black;
+  margin-bottom: 20px;
+}
+
+label {
+  font-family: Courier;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
